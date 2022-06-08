@@ -1,0 +1,36 @@
+{
+  "name": "@bitlatte/vue",
+  "version": "0.1.0",
+  "description": "Create a new Vue App with Vue Router, Vue-icons, TypeScript Support, and Vite.",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --fix"
+  },
+  "bin": "./bin/index.js",
+  "homepage": "https://github.com/Bitlatte/create-vue#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bitlatte/create-vue.git"
+  },
+  "bugs": "https://github.com/Bitlatte/create-vue/issues",
+  "keywords": [
+    "cli",
+    "vue",
+    "utility",
+    "tool"
+  ],
+  "license": "MIT-Modern-Variant",
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "@types/unzipper": "^0.10.5",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "unzipper": "^0.10.11"
+  }
+}
