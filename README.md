@@ -9,7 +9,7 @@ run the following command replacing \<project_name\> with
 whatever you wish to call your project:
 
 ```sh
-npx @bitlatte/vue <project_name>
+npx bitgen -v <project_name>
 ```
 
 The cli tool will setup your project and give you the next steps
